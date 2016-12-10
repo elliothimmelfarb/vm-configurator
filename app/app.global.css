@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Roboto';
+}
+
+.app {
+  position: absolute;
+  background-color: #757575;
+  height: 98vh;
+  width: 98vw;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  top: 10%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 5rem;
+}
+
+.container a {
+  font-size: 1.4rem;
+}
