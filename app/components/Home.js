@@ -8,7 +8,7 @@ import styles from './Home.css';
 export default class Home extends Component {
   render() {
     return (
-      <div className={styles.container}>
+      <div className={'container'}>
         <h2>Welcome to the Virtual Machine Configurator</h2>
         <h3>
           Choose to create a new machine or to view your
