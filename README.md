@@ -5,3 +5,6 @@ all the example code while leaving the boilerplate structure intact.
 Run `npm run dev` for development with hot reloading.
 
 It is built on [this boilerplate](https://github.com/chentsulin/electron-react-boilerplate)
+
+### Useful links:
+[Electron API Demo](https://github.com/electron/electron-api-demos)
