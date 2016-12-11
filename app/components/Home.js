@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import { RaisedButton } from 'material-ui';
-import styles from './Home.css';
 
 
 export default class Home extends Component {
@@ -18,14 +17,17 @@ export default class Home extends Component {
           primary
           fullWidth
           label="Create New VM"
-        />
+          >
+        </RaisedButton>
         <br />
         <br />
-        <RaisedButton
-          label="Your VM Library"
-          primary
-          fullWidth
-        />
+        <Link to={'view'} >
+          <RaisedButton
+            label="Your VM Library"
+            primary
+            fullWidth
+          />
+        </Link>
       </div>
     );
   }

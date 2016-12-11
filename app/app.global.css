@@ -4,11 +4,15 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: 'Roboto';
 }
 
+body {
+  background-color: #757575;
+}
+
 .app {
   position: absolute;
   background-color: #757575;
   height: 98vh;
-  width: 98vw;
+  width: 99vw;
   text-align: center;
 }
 
