@@ -4,6 +4,10 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: 'Roboto';
 }
 
+body {
+  background-color: #757575;
+}
+
 .app {
   position: absolute;
   background-color: #757575;
@@ -15,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
 .container {
   position: relative;
   width: 80%;
-  top: 10%;
+  top: 2%;
   margin: 0 auto;
   text-align: center;
 }
