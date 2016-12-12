@@ -3,6 +3,17 @@ export default {
     baseBoxes: [],
   },
   setup: {
-    dataBases: [],
+    dataBases: [
+      {
+        name: 'MongoDB',
+        aptget: 'mongodb'
+      },
+    ],
+    packageManagement: [
+      {
+        name: 'NPM',
+        aptget: 'npm',
+      }
+    ],
   }
 };
