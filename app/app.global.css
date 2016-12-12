@@ -12,14 +12,14 @@ body {
   position: absolute;
   background-color: #757575;
   height: 98vh;
-  width: 99vw;
+  width: 98vw;
   text-align: center;
 }
 
 .container {
   position: relative;
   width: 80%;
-  top: 10%;
+  top: 2%;
   margin: 0 auto;
   text-align: center;
 }

@@ -4,20 +4,10 @@ import React, { Component } from 'react';
 
 
 export default class CreateVM extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      directory: '',
-      current: '',
-      locations: [],
-    };
-  }
-
   render() {
     return (
       <div className={'container'}>
-        <input type="text" />
+        <h3>Create VM</h3>
       </div>
     );
   }

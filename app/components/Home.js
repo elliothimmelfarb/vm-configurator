@@ -13,15 +13,16 @@ export default class Home extends Component {
           Choose to create a new machine or to view your
           previously created machines
         </h3>
-        <RaisedButton
-          primary
-          fullWidth
-          label="Create New VM"
-          >
-        </RaisedButton>
+        <Link to={'/create'} >
+          <RaisedButton
+            primary
+            fullWidth
+            label="Create New VM"
+          />
+        </Link>
         <br />
         <br />
-        <Link to={'view'} >
+        <Link to={'/view'} >
           <RaisedButton
             label="Your VM Library"
             primary
